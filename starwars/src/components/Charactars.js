@@ -5,8 +5,8 @@ const Charactars = props =>{
     
 console.log(props.chars)
     return(
-        <div>
-            <div>
+        <div className="charWrapper">
+            <div className ="charMap">
                 {props.chars.map((charFromMap, index) =>  
                     <Charactar char={charFromMap} key={index} />) 
                 }

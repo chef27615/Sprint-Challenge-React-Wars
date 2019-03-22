@@ -5,4 +5,30 @@
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
 }
+
+.charWrapper {
+  
+  display: grid;
+  justify-content: center;
+}
+
+.charMap {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 5px;
+}
+
+
+.chars{
+  border: 5px solid darkolivegreen;
+  border-radius: 15px;
+
+  background-color: sandybrown;
+  opacity: 0.5;
+  
+}
+
+li{
+  list-style : none;
+}
 /* write your parent styles in here for your App.js */

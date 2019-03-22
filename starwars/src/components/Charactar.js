@@ -4,7 +4,7 @@ const Charactar = props =>{
     
     
     return(
-        <div className="charMaps">
+        <div className="chars">
             <ul>
                 <li>{props.char.name}</li>
                 <li>{props.char.birth_year}</li>
