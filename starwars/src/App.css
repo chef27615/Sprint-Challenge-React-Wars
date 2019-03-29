@@ -5,4 +5,46 @@
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
 }
+
+.charWrapper {
+  height: 90vh;
+  width: 100%;
+  display: grid;
+  justify-content: center;
+}
+
+.charMap {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 5px;
+}
+
+
+.chars{
+  border: 5px solid darkolivegreen;
+  border-radius: 15px;
+  width: 100%;
+  text-align: center;
+  background-color: sandybrown;
+  opacity: 0.5;
+  
+}
+
+.chars_detail{
+  display: grid;
+}
+
+ul{
+  margin: 0;
+  padding: 20px 5px;
+}
+
+li{
+  list-style : none;
+  color: #444;
+  font-weight:500;
+  line-height: 1.5;
+}
 /* write your parent styles in here for your App.js */
