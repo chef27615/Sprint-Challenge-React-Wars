@@ -45,5 +45,6 @@ li{
   list-style : none;
   color: #444;
   font-weight:500;
+  line-height: 1.5;
 }
 /* write your parent styles in here for your App.js */
