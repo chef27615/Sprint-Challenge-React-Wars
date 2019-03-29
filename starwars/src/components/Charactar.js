@@ -10,9 +10,9 @@ const Charactar = props =>{
                 <li>Birth: {birth_year}</li>
                 <li>Height: {height}</li>
                 <li>Mass: {mass}</li>
-                <li>Eye Color {eye_color}</li>
-                <li>Skin Color {skin_color}</li>
-                <li>Home {homeworld}</li>
+                <li>Eye Color: {eye_color}</li>
+                <li>Skin Color: {skin_color}</li>
+                <li>Home: {homeworld}</li>
             </ul>
         </div>
     );
